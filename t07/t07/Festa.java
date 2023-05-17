@@ -2,12 +2,13 @@ package t07;
 import java.util.TreeSet;
 
 public class Festa {
-	private TreeSet convidados = new TreeSet();
-	
-	public void novoConvidado(Convidado c) {
-		convidados.add(c);
-	}
-	public Festa(Convidado c) {
-		convidados.add(c);
-	}
+	private TreeSet<Convidado> convidados = new TreeSet<>();
+
+    public void novoConvidado(Convidado convidado) {
+        convidados.add(convidado);
+    }
+
+    public Festa(Convidado c) {
+        convidados.add(c);
+    }
 }
