@@ -1,5 +1,5 @@
 package java.com.github.TanyRM.poo.mc04;
 
-public class Livro {
+public class CD {
     
 }

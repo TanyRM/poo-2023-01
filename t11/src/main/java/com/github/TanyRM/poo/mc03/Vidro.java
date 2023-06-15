@@ -1,4 +1,4 @@
-package t11.src.main.mc03;
+package java.com.github.TanyRM.poo.mc03;
 
 public class Vidro {
     private double area;

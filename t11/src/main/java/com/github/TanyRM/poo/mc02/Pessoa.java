@@ -1,4 +1,4 @@
-package t11.src.main.mc02;
+package java.com.github.TanyRM.poo.mc02;
 
 public class Pessoa {
     

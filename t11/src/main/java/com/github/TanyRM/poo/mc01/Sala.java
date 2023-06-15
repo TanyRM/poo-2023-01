@@ -1,4 +1,4 @@
-package t11.src.main.mc01;
+package java.com.github.TanyRM.poo.mc01;
 
 public class Sala {
     
