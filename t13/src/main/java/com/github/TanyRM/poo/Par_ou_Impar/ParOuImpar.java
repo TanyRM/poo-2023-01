@@ -1,4 +1,3 @@
-package java.com.github.TanyRM.poo.Par_ou_Impar;
 public class ParOuImpar {
     public static void main(String[] args) {
 		int valor = 49;
