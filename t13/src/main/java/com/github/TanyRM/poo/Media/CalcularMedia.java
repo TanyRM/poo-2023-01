@@ -1,5 +1,3 @@
-package java.com.github.TanyRM.poo.Media;
-
 public class CalcularMedia {
     public static void main (String[] args){
         int n=4;
