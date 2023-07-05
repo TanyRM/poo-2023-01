@@ -1,5 +1,5 @@
-package main.java.com.github.TanyRM.poo.mc01;
+package java.com.github.TanyRM.poo.mc01;
 
-public class PlacaMae {
+public class PlacaMae extends Dispositivo{
     
 }
