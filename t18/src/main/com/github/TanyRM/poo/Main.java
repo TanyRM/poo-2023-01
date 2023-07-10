@@ -10,7 +10,6 @@ public class Main {
         Peca rainha = new Peca("Rainha");
         Peca rei = new Peca("Rei");
 
-        //lances da partida 
         partida.adicionarLance(new Lance(partida.getJogador1(), peao, new Posicao('e', '2'), new Posicao('e', '4')));
         partida.adicionarComentario(" ");
         partida.adicionarLance(new Lance(partida.getJogador2(), peao, new Posicao('e', '7'), new Posicao('e', '5')));
@@ -102,7 +101,6 @@ public class Main {
         partida.adicionarLance(new Lance(partida.getJogador1(), bispo, new Posicao('d', '6'), new Posicao('e', '7')));
         partida.adicionarComentario("Rei preto encurralado, xeque-mate!");
         
-        //exibir a partida
         System.out.println(partida);
         System.out.println("Vitória de Adolf Anderssen!");
     }
