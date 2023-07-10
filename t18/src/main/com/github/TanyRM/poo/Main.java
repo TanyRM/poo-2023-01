@@ -1,0 +1,110 @@
+package com.github.TanyRM.poo;
+
+public class Main {
+    public static void main(String[] args) {
+        Partida partida = new Partida();
+        Peca peao = new Peca("Peao");
+        Peca torre = new Peca("Torre");
+        Peca cavalo = new Peca("Cavalo");
+        Peca bispo = new Peca("Bispo");
+        Peca rainha = new Peca("Rainha");
+        Peca rei = new Peca("Rei");
+
+        //lances da partida 
+        partida.adicionarLance(new Lance(partida.getJogador1(), peao, new Posicao('e', '2'), new Posicao('e', '4')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), peao, new Posicao('e', '7'), new Posicao('e', '5')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), peao, new Posicao('f', '2'), new Posicao('f', '4')));
+        partida.adicionarComentario("O gambito do rei");
+        partida.adicionarLance(new Lance(partida.getJogador2(), peao, new Posicao('e', '5'), new Posicao('f', '4'))); 
+        partida.adicionarComentario("Gambito do rei aceito e peao branco capturado!");
+        partida.adicionarLance(new Lance(partida.getJogador1(), bispo, new Posicao('f', '1'), new Posicao('c', '4')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), rainha, new Posicao('d', '8'), new Posicao('h', '4')));
+        partida.adicionarComentario("Rei branco em xeque!");
+        partida.adicionarLance(new Lance(partida.getJogador1(), rei, new Posicao('e', '1'), new Posicao('f', '1')));
+        partida.adicionarComentario("Rei branco fugiu.");
+        partida.adicionarLance(new Lance(partida.getJogador2(), peao, new Posicao('b', '7'), new Posicao('b', '5')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), bispo, new Posicao('c', '4'), new Posicao('b', '5')));
+        partida.adicionarComentario("Peao preto capturado!");
+        partida.adicionarLance(new Lance(partida.getJogador2(), cavalo, new Posicao('g', '8'), new Posicao('f', '6')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), cavalo, new Posicao('g', '1'), new Posicao('f', '3')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), rainha, new Posicao('h', '4'), new Posicao('h', '6')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), peao, new Posicao('d', '2'), new Posicao('d', '3')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), cavalo, new Posicao('f', '6'), new Posicao('h', '5')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), cavalo, new Posicao('f', '3'), new Posicao('h', '4')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), rainha, new Posicao('h', '6'), new Posicao('g', '5')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), cavalo, new Posicao('h', '4'), new Posicao('f', '5')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), peao, new Posicao('c', '7'), new Posicao('c', '6')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), peao, new Posicao('g', '2'), new Posicao('g', '4')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), cavalo, new Posicao('h', '5'), new Posicao('f', '6')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), torre, new Posicao('h', '1'), new Posicao('g', '1')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), peao, new Posicao('c', '6'), new Posicao('b', '5')));
+        partida.adicionarComentario("Bispo branco capturado!");
+        partida.adicionarLance(new Lance(partida.getJogador1(), peao, new Posicao('h', '2'), new Posicao('h', '4')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), rainha, new Posicao('g', '5'), new Posicao('g', '6')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), peao, new Posicao('h', '4'), new Posicao('h', '5')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), rainha, new Posicao('g', '6'), new Posicao('g', '5')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), rainha, new Posicao('d', '1'), new Posicao('f', '3')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), cavalo, new Posicao('f', '6'), new Posicao('g', '8')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), bispo, new Posicao('c', '1'), new Posicao('f', '4')));
+        partida.adicionarComentario("Peao preto capturado!");
+        partida.adicionarLance(new Lance(partida.getJogador2(), rainha, new Posicao('g', '5'), new Posicao('f', '6')));
+        partida.adicionarComentario(" ");
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), cavalo, new Posicao('b', '1'), new Posicao('c', '3')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), bispo, new Posicao('f', '8'), new Posicao('c', '5')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), cavalo, new Posicao('c', '3'), new Posicao('d', '5')));
+        partida.adicionarLance(new Lance(partida.getJogador2(), rainha, new Posicao('f', '6'), new Posicao('b', '2')));
+        partida.adicionarComentario("Peao branco capturado!");
+        partida.adicionarLance(new Lance(partida.getJogador1(), bispo, new Posicao('f', '4'), new Posicao('d', '6')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), bispo, new Posicao('c', '5'), new Posicao('g', '1')));
+        partida.adicionarComentario("Torre branca capturada");
+        partida.adicionarLance(new Lance(partida.getJogador1(), peao, new Posicao('e', '4'), new Posicao('e', '5')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador2(), rainha, new Posicao('b', '2'), new Posicao('a', '1')));
+        partida.adicionarComentario("Outra torre branca capturada e rei branco em xeque!");
+        partida.adicionarLance(new Lance(partida.getJogador1(), rei, new Posicao('f', '1'), new Posicao('e', '2')));
+        partida.adicionarComentario("Rei branco fugiu do xeque!");
+        partida.adicionarLance(new Lance(partida.getJogador2(), cavalo, new Posicao('b', '8'), new Posicao('a', '6')));
+        partida.adicionarComentario(" ");
+        partida.adicionarLance(new Lance(partida.getJogador1(), cavalo, new Posicao('f', '5'), new Posicao('g', '7')));
+        partida.adicionarComentario("Rei preto em xeque!");
+        partida.adicionarLance(new Lance(partida.getJogador2(), rei, new Posicao('e', '8'), new Posicao('d', '8')));
+        partida.adicionarComentario("Rei preto fugiu do xeque.");
+        partida.adicionarLance(new Lance(partida.getJogador1(), rainha, new Posicao('f', '3'), new Posicao('f', '6')));
+        partida.adicionarComentario("Rei preto em xeque novamente!");
+        partida.adicionarLance(new Lance(partida.getJogador2(), cavalo, new Posicao('g', '8'), new Posicao('f', '6')));
+        partida.adicionarComentario("Rainha branca capturada!");
+        partida.adicionarLance(new Lance(partida.getJogador1(), bispo, new Posicao('d', '6'), new Posicao('e', '7')));
+        partida.adicionarComentario("Rei preto encurralado, xeque-mate!");
+        
+        //exibir a partida
+        System.out.println(partida);
+        System.out.println("Vitória de Adolf Anderssen!");
+    }
+}
+
