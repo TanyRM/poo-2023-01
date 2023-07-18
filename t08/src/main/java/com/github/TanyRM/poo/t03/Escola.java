@@ -1,4 +1,4 @@
-package java.com.github.TanyRM.poo.t03;
+package java.com.github.tanyrm.poo.t03;
 
 public class Escola {
 	public Endereco end;

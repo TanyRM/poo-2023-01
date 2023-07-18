@@ -1,5 +1,5 @@
-package java.com.github.TanyRM.poo.t10;
+package java.com.github.tanyrm.poo.t10;
 
 public class Empresa {
-	public Emprego[] empregos;
+	private Emprego[] empregos;
 }

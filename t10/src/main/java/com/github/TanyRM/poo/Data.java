@@ -1,4 +1,4 @@
-package java.com.github.TanyRM.poo;
+package java.com.github.tanyrm.poo;
 
 public class Data {
     private int dia;

@@ -1,5 +1,5 @@
-package java.com.github.TanyRM.poo.t11;
+package java.com.github.tanyrm.poo.t11;
 
 public class Usuario {
-	public Diretorio[] diretorios;
+	private Diretorio[] diretorios;
 }

@@ -1,7 +1,5 @@
-package java.com.github.TanyRM.poo.m06;
+package java.com.github.tanyrm.poo.m06;
 
 public class Cidade {
-    Armazem[] armazens;
-
-    
+    private Armazem[] armazens;
 }

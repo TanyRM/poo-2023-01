@@ -1,5 +1,5 @@
-package java.com.github.TanyRM.poo.m04;
+package java.com.github.tanyrm.poo.m04;
 
-public class Elefante extends Mamifero{
+public class Elefante extends Mamifero {
     
 }

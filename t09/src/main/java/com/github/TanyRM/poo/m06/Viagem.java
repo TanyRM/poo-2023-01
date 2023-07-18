@@ -1,6 +1,6 @@
-package java.com.github.TanyRM.poo.m06;
+package java.com.github.tanyrm.poo.m06;
 
 public class Viagem {
-    Cidade[] cidades;
-    Pedido[] listaPedidos;
+    private Cidade[] cidades;
+    private Pedido[] listaPedidos;
 }

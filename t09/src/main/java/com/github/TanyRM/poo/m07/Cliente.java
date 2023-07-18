@@ -1,5 +1,5 @@
-package java.com.github.TanyRM.poo.m07;
+package java.com.github.tanyrm.poo.m07;
 
 public class Cliente {
-    Transacao[] transacoes;
+    private Transacao[] transacoes;
 }

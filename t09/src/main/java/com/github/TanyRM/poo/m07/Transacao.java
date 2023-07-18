@@ -1,6 +1,6 @@
-package java.com.github.TanyRM.poo.m07;
+package java.com.github.tanyrm.poo.m07;
 
 public class Transacao {
-    Cliente cliente;
-    Fornecedor fornecedor;
+    private Cliente cliente;
+    private Fornecedor fornecedor;
 }

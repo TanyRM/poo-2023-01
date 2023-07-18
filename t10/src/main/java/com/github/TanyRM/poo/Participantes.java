@@ -1,4 +1,4 @@
-package java.com.github.TanyRM.poo;
+package java.com.github.tanyrm.poo;
 
 public class Participantes {
     private Passeio[] passeios;
@@ -6,7 +6,5 @@ public class Participantes {
     private String telefone;
     private String nome;
     private String email;
-    private int idade;
-
-    
+    private int idade; 
 }

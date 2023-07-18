@@ -1,6 +1,6 @@
-package java.com.github.TanyRM.poo.m02;
+package java.com.github.tanyrm.poo.m02;
 
 public class Ponto {
-    double x;
-    double y;
+    private double x;
+    private double y;
 }

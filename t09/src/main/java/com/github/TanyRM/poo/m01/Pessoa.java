@@ -1,6 +1,7 @@
-package java.com.github.TanyRM.poo.m01;
+package java.com.github.tanyrm.poo.m01;
+
 public class Pessoa {
-    String nome;
-    int idade;
-    Habito[] habitos;
+    private String nome;
+    private int idade;
+    private Habito[] habitos;
 }
