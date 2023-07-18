@@ -1,4 +1,4 @@
-package com.github.TanyRM.poo;
+package com.github.tanyrm.poo;
 
 public class Peca {
     private String nome;
@@ -6,7 +6,6 @@ public class Peca {
     public Peca(String nome) {
         this.nome = nome;
     }
-
     @Override
     public String toString() {
         return nome;

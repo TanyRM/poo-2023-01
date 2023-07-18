@@ -1,4 +1,4 @@
-package com.github.TanyRM.poo;
+package com.github.tanyrm.poo;
 
 public class Posicao {
     private char x;
@@ -8,7 +8,6 @@ public class Posicao {
         this.x = x;
         this.y = y;
     }
-
     @Override
     public String toString() {
         return "" + x + y + "" ;

@@ -1,4 +1,4 @@
-package java.com.github.TanyRM.poo.mc09;
+package java.com.github.tanyrm.poo.mc09;
 
 public class Periodo {
     private Data dataInicial;

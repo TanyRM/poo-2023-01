@@ -1,4 +1,4 @@
-package com.github.TanyRM.poo;
+package com.github.tanyrm.poo;
 
 public class Main {
     public static void main(String[] args) {
@@ -105,4 +105,3 @@ public class Main {
         System.out.println("Vitória de Adolf Anderssen!");
     }
 }
-

@@ -1,4 +1,5 @@
-package java.com.github.TanyRM.poo.mc04;
+package java.com.github.tanyrm.poo.mc04;
+
 import java.util.List;
 
 public class Prateleira {

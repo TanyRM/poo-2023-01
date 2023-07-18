@@ -1,6 +1,5 @@
-package java.com.github.TanyRM.poo.mc02;
+package java.com.github.tanyrm.poo.mc02;
 
 public class Cadeira {
     private Pessoa dono;
-    
 }

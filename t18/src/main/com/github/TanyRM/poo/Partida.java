@@ -1,4 +1,4 @@
-package com.github.TanyRM.poo;
+package com.github.tanyrm.poo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,7 +43,6 @@ public class Partida {
             if ((i+1)%2 == 0) { //quebra de linha depois dos movimentos dos dois jogadores (um lance)
                 partidaString.append("\n");
             }
-            
         }
         return partidaString.toString();
     }

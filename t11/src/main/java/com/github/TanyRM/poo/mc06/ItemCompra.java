@@ -1,5 +1,4 @@
-package java.com.github.TanyRM.poo.mc06;
-import java.util.List;
+package java.com.github.tanyrm.poo.mc06;
 
 public class ItemCompra {
     private int quantidade;

@@ -1,4 +1,4 @@
-package com.github.TanyRM.poo;
+package com.github.tanyrm.poo;
 
 public class Lance {
     private Jogador jogador;

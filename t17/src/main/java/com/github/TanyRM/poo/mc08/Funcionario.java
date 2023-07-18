@@ -1,4 +1,4 @@
-package java.com.github.TanyRM.poo.mc08;
+package java.com.github.tanyrm.poo.mc08;
 
 public class Funcionario {
     private Funcionario gerente;

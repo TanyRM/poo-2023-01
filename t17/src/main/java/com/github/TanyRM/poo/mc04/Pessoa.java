@@ -1,4 +1,4 @@
-package java.com.github.TanyRM.poo.mc04;
+package java.com.github.tanyrm.poo.mc04;
 
 public class Pessoa {
     private Convite convite;

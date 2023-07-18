@@ -1,5 +1,5 @@
-package java.com.github.TanyRM.poo.mc06;
+package java.com.github.tanyrm.poo.mc06;
 
-public class Contrato extends Pagamento{
+public class Contrato extends Pagamento {
     
 }

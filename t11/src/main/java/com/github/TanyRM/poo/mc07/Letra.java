@@ -1,4 +1,4 @@
-package java.com.github.TanyRM.poo.mc07;
+package java.com.github.tanyrm.poo.mc07;
 
 public class Letra {
     

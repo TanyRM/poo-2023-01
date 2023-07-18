@@ -1,5 +1,5 @@
-package java.com.github.TanyRM.poo.mc05;
+package java.com.github.tanyrm.poo.mc05;
 
-public class Padeiro extends Profissao{
+public class Padeiro extends Profissao {
     
 }

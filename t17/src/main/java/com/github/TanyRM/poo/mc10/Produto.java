@@ -1,4 +1,4 @@
-package java.com.github.TanyRM.poo.mc10;
+package java.com.github.tanyrm.poo.mc10;
 
 public class Produto {
     private Item item;
