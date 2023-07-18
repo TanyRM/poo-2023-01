@@ -1,5 +1,5 @@
-package java.com.github.TanyRM.poo.t07;
+package java.com.github.tanyrm.poo.t07;
 
-public class Revista extends Referencia{
+public class Revista extends Referencia {
 
 }

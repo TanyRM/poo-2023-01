@@ -1,4 +1,5 @@
-package java.com.github.TanyRM.poo.t07;
+package java.com.github.tanyrm.poo.t07;
+
 import java.util.TreeSet;
 
 public class Festa {

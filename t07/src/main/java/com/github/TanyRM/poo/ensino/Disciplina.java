@@ -1,4 +1,4 @@
-package java.com.github.TanyRM.poo.ensino;
+package java.com.github.tanyrm.poo.ensino;
 
 public class Disciplina {
 

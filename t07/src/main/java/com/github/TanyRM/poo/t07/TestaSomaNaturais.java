@@ -1,4 +1,4 @@
-package java.com.github.TanyRM.poo.t07;
+package java.com.github.tanyrm.poo.t07;
 
 public class TestaSomaNaturais {
 	public static boolean SomaNaturais(int n) {

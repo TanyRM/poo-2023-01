@@ -1,5 +1,6 @@
-package java.com.github.TanyRM.poo.escola;
-import java.com.github.TanyRM.poo.ensino.Disciplina;
+package java.com.github.tanyrm.poo.escola;
+
+import java.com.github.tanyrm.poo.ensino.Disciplina;
 
 public class Matricula {
 	private Disciplina disciplina;
