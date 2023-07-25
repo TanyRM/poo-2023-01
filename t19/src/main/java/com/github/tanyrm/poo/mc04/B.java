@@ -1,5 +1,5 @@
 package java.com.github.tanyrm.poo.mc04;
 
-public class B {
+public class B extends A {
     
 }

@@ -1,5 +1,11 @@
 package java.com.github.tanyrm.poo.mc10;
 
-public class Motorista {
-    
+import java.util.List;
+
+public class Motorista extends Papel {
+    private List<Viagem> viagens;
+
+    public void adicionarViagem(Viagem viagem) {
+        viagens.add(viagem);
+    }
 }
