@@ -1,5 +1,5 @@
 package java.com.github.tanyrm.poo.mc17;
 
-public class Diretor {
+public class Diretor extends Docente {
     
 }

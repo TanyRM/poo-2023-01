@@ -1,5 +1,5 @@
 package java.com.github.tanyrm.poo.mc17;
 
-public class Docente {
+public class Docente extends Cargo {
     
 }
