@@ -1,5 +1,11 @@
 package java.com.github.tanyrm.poo.t21;
 
-public class DiaSemana {
-    
+enum DiaSemana {
+    DOMINGO, 
+    SEGUNDA, 
+    TERCA, 
+    QUARTA, 
+    QUINTA, 
+    SEXTA, 
+    SABADO
 }

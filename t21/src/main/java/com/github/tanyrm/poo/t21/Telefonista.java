@@ -1,5 +1,4 @@
 package java.com.github.tanyrm.poo.t21;
 
-public class Telefonista {
-    
+public class Telefonista implements Colaborador {
 }

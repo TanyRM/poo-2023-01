@@ -1,5 +1,5 @@
 package java.com.github.tanyrm.poo.t21;
 
-public class Pagamento {
-    
+public interface Pagamento {
+    Preco valor();
 }
